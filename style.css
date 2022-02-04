@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding:0;
+    font-family:Arial;
+}
+    
+body{
+    background: url("bg.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: arial;
+}
+    
+.main{
+    max-width:650px;
+    width: 340%;
+    margin: 0px auto;
+    margin-top: 120px;
+    padding: 8px 12px;
+    padding-top: 20px;
+    border-radius: 12px;
+    background-color: rgba(2, 2, 2, 0.548);
+    object-position: center;
+}
+
+.head{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom: 2px solid palevioletred;
+    width: 587px;
+    margin-left: 33px;
+}
+    
+.formContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+    
+.formContent .inputDetails{
+    margin-bottom: 7px;
+}
+    
+.labels{
+    display: block;
+    font-weight: 500;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    color: white;
+    margin-left: 23px;
+}
+    
+.inputDetails input{
+    height: 20px;
+    width: 90%;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 0;
+    margin-left: 23px;
+}
+    
+.inputDetails input:focus,
+.inputDetails input:valid{
+    border-color: palevioletred;
+}
+    
+.btn input{
+    background-color: palevioletred;
+    border: none;
+    color:  white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 180%;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 65px;
+}
+    
+.bottom a{
+    color: white;
+    font-size: 14px;
+}
+    
+.main{
+    max width: 500%;
+}
+    
+.formContent .inputDetails{
+    width: 48%;
+    max-height: 100px;
+    background-color: none;
+}
+    
+div.container{
+    font-size: 12px;
+    text-align: center;
+}
+    
+div.copyright{
+    color: rgb(185, 20, 42);
+}
+    
+input#name{
+    width: 85%;
+    margin-top: 10px 5px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 2px solid palevioletred;
+    background: none;
+    color: white;
+    border-radius: none;
+    padding-bottom: 8px;
+}
+    
+input::placeholder{
+    color: rgb(184, 175, 175);
+}
+    
+label{
+    color: white;
+    font-size: 14px;
+    margin-left: 75px;
+}
